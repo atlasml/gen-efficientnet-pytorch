@@ -8,6 +8,7 @@ from gen_efficientnet import fbnetc_100
 
 from sotabench.image_classification import imagenet
 
+import torch
 import torchvision.transforms as transforms
 import PIL
 
