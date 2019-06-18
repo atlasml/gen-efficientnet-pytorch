@@ -1,13 +1,7 @@
 dependencies = ['scipy', 'torchvision', 'torch']
 
 from gen_efficientnet import efficientnet_b0
-from gen_efficientnet import mobilenetv3_100
-from gen_efficientnet import mnasnet_a1
-from gen_efficientnet import mnasnet_b1
-from gen_efficientnet import fbnetc_100
-
 from sotabench.image_classification import imagenet
-
 import torch
 import torchvision.transforms as transforms
 import PIL
